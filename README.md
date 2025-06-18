@@ -16,11 +16,11 @@
 ---
 
 ## 👥 Team
-| Name                | Semester |
-|---------------------|----------|
-| Nikolaus Soukopf    | 4        |
-| Philipp Winkler     | 4        |
-| Andreas Lang        | 4        |
+| Name                |
+|---------------------|
+| Nikolaus Soukopf    |
+| Philipp Winkler     |
+| Andreas Lang        |
 
 ---
 
@@ -30,12 +30,7 @@
 |-----------------|---------------------------------------------------------------------------------------------------|:------:|
 | **12.1.1 (20%)**| Wird korrekt übertragen.                                                                      | ✔️     |
 
-<figure>
-  <img src="mqtt.png" alt="MQTT Übertragung" width="300" style="display:block;margin:auto;"/>
-  <figcaption align="center"><b>Abbildung:</b> MQTT Übertragung</figcaption>
-</figure>
-
-| **12.1.2 (40%)**| Alle Topics werden als TinyDB abgespeichert. `report_generator.py` visualisiert im definierten Zeitraum (siehe `config.py`). Plots laufen in Grafana ![Grafana](reports/Grafana_Screenshot.jpeg). Bei Verbindungsabbruch: reconnect bis wieder verbunden. | ✔️     |
+| **12.1.2 (40%)**| Alle Topics werden als TinyDB abgespeichert. `report_generator.py` visualisiert im definierten Zeitraum (siehe `config.py`). Plots laufen in Grafana. Bei Verbindungsabbruch: reconnect bis wieder verbunden. | ✔️     |
 | **12.3 (20%)**  | Siehe unten                                                                                       | ✔️     |
 | **12.4 (20%)**  | Siehe unten                                                                                       | ✔️     |
 
@@ -52,8 +47,8 @@
 y = (0.1000)\cdot vibration\_index\_red + (0.0005)\cdot fill\_level\_grams\_red + (0.1000)\cdot vibration\_index\_blue + (0.0005)\cdot fill\_level\_grams\_blue + (0.1000)\cdot vibration\_index\_green + (0.0005)\cdot fill\_level\_grams\_green + (0.2000)\cdot temperature\_green + (0.2000)\cdot temperature\_red + (0.2000)\cdot temperature\_blue - 15.0000
 ```
 
-> **Prognose des X-Datensetz unter:**
-> [`maschine_learning/reg_`](maschine_learning/reg_)
+> **Prognose des X-Datensetzes:**
+> Die Prognose wurde mit den Daten aus [`maschine_learning/X.csv`](maschine_learning/X.csv) durchgeführt. Das Ergebnis der Vorhersage ist in [`maschine_learning/reg_52315887_52315893_52315854.csv`](maschine_learning/reg_52315887_52315893_52315854.csv) gespeichert.
 
 ---
 
@@ -66,6 +61,16 @@ y = (0.1000)\cdot vibration\_index\_red + (0.0005)\cdot fill\_level\_grams\_red 
 ---
 
 ## 🖼️ Visualizations
+
+<figure>
+  <img src="mqtt.png" alt="MQTT Übertragung" width="300" style="display:block;margin:auto;"/>
+  <figcaption align="center"><b>Abbildung:</b> MQTT Übertragung</figcaption>
+</figure>
+
+<figure>
+  <img src="reports/Grafana_Screenshot.jpeg" alt="Grafana Screenshot" width="400" style="display:block;margin:auto;"/>
+  <figcaption align="center"><b>Abbildung:</b> Grafana Visualisierung</figcaption>
+</figure>
 
 <figure>
   <img src="maschine_learning/ConfusionMatrix.png" alt="Confusion Matrix" width="400"/>
