@@ -28,7 +28,13 @@
 
 | Aufgabe         | Details                                                                                           | Status |
 |-----------------|---------------------------------------------------------------------------------------------------|:------:|
-| **12.1.1 (20%)**| Wird korrekt übertragen.                                                                          | ✔️     |
+| **12.1.1 (20%)**| Wird korrekt übertragen.                                                                      | ✔️     |
+
+<figure>
+  <img src="mqtt.png" alt="MQTT Übertragung" width="300" style="display:block;margin:auto;"/>
+  <figcaption align="center"><b>Abbildung:</b> MQTT Übertragung</figcaption>
+</figure>
+
 | **12.1.2 (40%)**| Alle Topics werden als TinyDB abgespeichert. `report_generator.py` visualisiert im definierten Zeitraum (siehe `config.py`). Plots laufen in Grafana ![Grafana](reports/Grafana_Screenshot.jpeg). Bei Verbindungsabbruch: reconnect bis wieder verbunden. | ✔️     |
 | **12.3 (20%)**  | Siehe unten                                                                                       | ✔️     |
 | **12.4 (20%)**  | Siehe unten                                                                                       | ✔️     |
