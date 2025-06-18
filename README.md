@@ -26,13 +26,12 @@
 
 ## ✅ Tasks
 
-| Aufgabe         | Details                                                                                           | Status |
-|-----------------|---------------------------------------------------------------------------------------------------|:------:|
-| **12.1.1 (20%)**| Wird korrekt übertragen.                                                                      | ✔️     |
-
-| **12.1.2 (40%)**| Alle Topics werden als TinyDB abgespeichert. `report_generator.py` visualisiert im definierten Zeitraum (siehe `config.py`). Plots laufen in Grafana. Bei Verbindungsabbruch: reconnect bis wieder verbunden. | ✔️     |
-| **12.3 (20%)**  | Siehe unten                                                                                       | ✔️     |
-| **12.4 (20%)**  | Siehe unten                                                                                       | ✔️     |
+| Aufgabe           | Details                                                                                                                                      | Status |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------|:------:|
+| **12.1.1 (20%)**  | Wird korrekt übertragen.                                                                                                                      | ✔️     |
+| **12.1.2 (40%)**  | Alle Topics werden als TinyDB abgespeichert. `report_generator.py` visualisiert im definierten Zeitraum (siehe `config.py`). Plots laufen in Grafana. Bei Verbindungsabbruch: reconnect bis wieder verbunden. | ✔️     |
+| **12.3 (20%)**    | Siehe unten                                                                                                                                    | ✔️     |
+| **12.4 (20%)**    | Siehe unten                                                                                                                                    | ✔️     |
 
 ---
 
